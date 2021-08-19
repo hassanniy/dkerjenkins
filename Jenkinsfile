@@ -3,6 +3,7 @@ pipeline {
     environment {
         dockerImage = ''
         registry = 'akdevopscoaching/pythonapp'
+        registryCredential = 'dockerhub_id' 
     }
     
        stages {
